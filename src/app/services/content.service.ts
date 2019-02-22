@@ -63,6 +63,33 @@ export class ContentService{
               end: 'Fev 2015'
             }
           ]
+        },
+        education :{
+          title: 'Educação',
+          educations:  [
+            {
+              company: 'FCG - Faculdade Campo Grande',
+              course: 'Bacharel em Ciência da Computação',
+              description: 'Ciência da Computação - Desenvolvedor WEB',
+              start: 'Jan 2006',
+              end: 'Dez 2010'
+            }
+          ]
+        },
+        skill:{
+          title: 'Habilidades',
+          subTitle: 'Linguagens de programação e Ferramentas',
+          languages: [
+            'html5','css3','js', 'angular','npm'
+          ]
+        },
+        interest:{
+          title: 'Interesses',
+          description:"Alem de gostar de ser desenvolvedor , gosto de passar o tempo praticando exercícios. Eu gosto de assister series e filmes do genero de ficção ciêntifica e fantasia, e gasto uma boa quantidade do meu tempo livre explorando as mais avançadas tecnologias no mundo do desenvolvimento do front-end."
+        },
+        award:{
+          title: "Certificações",
+          certifications: ['Curso de Desenvolvimento WEB com ES6, TypeScript e Angular','Ionic 2/ Ionic 3 - Build iOS & Android Apps with Angular','Git e Github para iniciantes']
         }
     };
 
@@ -128,6 +155,33 @@ export class ContentService{
               end: 'Feb 2015'
             }
           ]
+        },
+        education :{
+          title: 'Education',
+          educations:  [
+            {
+              company: 'FCG - Faculdade Campo Grande',
+              course: 'Bachelor of Computer Science',
+              description: 'Computer Science - Web Developer',
+              start: 'Jan 2006',
+              end: 'Dec 2010'
+            }
+          ]
+        },
+        skill:{
+          title: 'Skills',
+          subTitle: 'Programming Languages & Tools',
+          languages: [
+            'html5','css3','js', 'angular','npm'
+          ]
+        },
+        interest:{
+          title: 'Interests',
+          description:"Apart from being a web developer, I enjoy most of my time being outdoors. When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+        },
+        award:{
+          title: "Awarde & Certifications",
+          certifications: ['Curso de Desenvolvimento WEB com ES6, TypeScript e Angular','Ionic 2/ Ionic 3 - Build iOS & Android Apps with Angular','Git e Github para iniciantes']
         }
     };
 

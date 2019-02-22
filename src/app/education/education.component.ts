@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { EducationModel } from '../models/education.model';
 
 @Component({
   selector: 'app-education',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
+  @Input() title: string;
+  @Input() educations: EducationModel[];
+  
   constructor() { }
 
   ngOnInit() {
