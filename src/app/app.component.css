@@ -1,0 +1,18 @@
+
+.google_translate img {
+    filter:alpha(opacity=100);
+    -moz-opacity: 1.0;
+    opacity: 1.0;
+    border:0;}
+    .google_translate:hover img {
+    filter:alpha(opacity=30);
+    -moz-opacity: 0.30;
+    opacity: 0.30;
+    border:0;
+    }
+    .google_translatextra:hover img {
+    filter:alpha(opacity=0.30);
+    -moz-opacity: 0.30;
+    opacity: 0.30;
+    border:0;
+    }

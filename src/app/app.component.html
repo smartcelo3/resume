@@ -1,20 +1,31 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div>
+  <a class="google_translate"  title="Portuguese" (click)="setLanguage('pt-br')" >
+    <img alt="Portuguese" border="0" align="absbottom" title="Portuguese" height="32" src="http://lh4.ggpht.com/_pt7i0nbIOCY/SWwkG0osjzI/AAAAAAAAA2g/_kM2A16R_Ho/Portuguese_thumb%5B1%5D.png?imgmax=800" style="cursor: pointer;margin-right:13px" width="24"/>
+  </a>
+  <a class="google_translate"  title="English" (click)="setLanguage('en')" >
+    <img alt="English" border="0" align="absbottom" title="English" height="32" src="http://lh6.ggpht.com/_pt7i0nbIOCY/SWwjycGEnLI/AAAAAAAAA1o/7p6S3-tipsA/English_thumb%5B3%5D.png?imgmax=800" style="cursor: pointer;margin-right:13px" width="24"/>
+  </a>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+<div id="page-top">
+
+  <app-menu [menus]="content.menus"></app-menu>
+
+  <div class="container-fluid p-0">
+    
+    <app-about [about]="content.about"></app-about>    
+
+    <app-experience [experiences]="content.experience.experiences" [title]="content.experience.title"></app-experience>    
+
+    <app-education></app-education>    
+
+    <app-skills></app-skills>    
+
+    <app-interests></app-interests>        
+
+    <app-awards></app-awards>
+
+  </div>  
+
+</div>
 
